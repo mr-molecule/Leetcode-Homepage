@@ -61,4 +61,40 @@ nav ul li a{
     font-size: 13px;
 }
 
+.sign-inform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    width: 400px;
+    height: 100vh;
+    background: white;
+    border-radius: 10px;   
+}
 
+.sign-inform h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.signinlogo{
+    display: flex;
+    width: 80px;
+}
+
+.sign-inform form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .text-field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.pass{
+    display: inline;
+    align-items: center;
+}
