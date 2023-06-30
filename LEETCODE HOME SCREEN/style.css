@@ -15,12 +15,12 @@
     overflow: hidden;
 }
 
-nav{
+
+.hero nav{
     padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .logo{
@@ -46,14 +46,21 @@ nav ul li a{
 }
 
 .prem-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
     text-decoration: none;
-    color: rgba(134, 122, 6, 0.65);
-    margin-right: 15px;
-    font-weight: 400;
-    border-width:1px;
-    border-style:solid;
-    border-color:rgba(134, 122, 6, 0.65);
-    padding: 4px 5px;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(white,white),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip:content-box,border-box;
+}
+
+.prem-btn span{
+    display: block;
+    padding: 8px 22px;
 }
 
 .prem-btn{
@@ -61,15 +68,26 @@ nav ul li a{
     font-size: 13px;
 }
 
+.container{
+    position: relative;
+    top: 127px;
+    left: -210px;
+}
+
+
+
 .sign-inform{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
     width: 400px;
-    height: 100vh;
-    background: white;
+    height: 50vh;
+    background: cornsilk;
     border-radius: 10px;   
+}
+
+.sign-inform{
+    display: inline;
 }
 
 .sign-inform h1{
@@ -78,7 +96,8 @@ nav ul li a{
     border-bottom: 1px solid silver;
 }
 
-.signinlogo{
+.sign-inform img{
+    text-align: center;
     display: flex;
     width: 80px;
 }
@@ -98,3 +117,4 @@ form .text-field{
     display: inline;
     align-items: center;
 }
+
